@@ -37,6 +37,10 @@ Images
     width: 600px;
 }
 
+.smallIcons{
+    height: 50px;
+}
+
 /********
 Texts and Fonts
 *********/
@@ -88,6 +92,10 @@ SIZE CHANGE
 @media (max-width: 768px){
     h1{
         font-size: 80px;
+    }
+
+    h2{
+        font-size: 45px;
     }
 
     p{
