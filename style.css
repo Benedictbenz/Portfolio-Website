@@ -23,6 +23,9 @@ Normal Images
 
 .normalImage{
     height: 400px;
+    border: 1px solid #1269cc;
+    margin-top: 50px;
+    box-shadow: 10px 10px 30px #7cb8fd;
 }
 
 /********
@@ -39,9 +42,18 @@ h2{
     font-family: "Oswald", sans-serif;
     font-size: 60px;
     font-weight: bold;
+    font-style: italic;
     padding: 0;
     margin-bottom: 15px;
     text-shadow: 5px 5px  #51eefc;
+}
+
+h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(255, 177, 75);
 }
 
 p{
@@ -54,7 +66,7 @@ li{
     font-size: 20px;
 }
 
-.context{
+.content{
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     padding: 0px;
